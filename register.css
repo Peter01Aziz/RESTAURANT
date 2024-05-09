@@ -1,0 +1,142 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.main{
+    width: 100%;
+}
+
+nav{
+    width: 100%;
+    background-color: black;
+    height: 80px;
+    line-height: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+.logo a{
+    font-size: 40px;
+    color: #ff0000;
+    font-weight: bold;
+    margin-left: 100px;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 23px;
+    transition: 0.5s all ease;
+}
+ul{
+    margin: 0px;
+    margin-right: 100px;
+    
+}
+ul li{
+    float: left;
+    padding: 0px 19px;
+    list-style: none;
+}
+ul li a:hover{
+    color: red;
+}
+
+.header{
+    background-image: url(1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+
+button{
+    background: none;
+    border: 1px solid #fff;
+    color: #fff;
+    font-size: 18px;
+    padding: 8px 20px;
+    border-radius: 6px;
+    transition: 0.5s all ease;
+}
+
+button:hover{
+    background: black;
+    color: rgb(255, 0, 0);
+}
+.overlay{
+    background: rgba(0,0,0,0.6);
+}
+
+
+
+
+
+#contact {
+    background-color: #f9f9f9;
+    padding: 40px;
+    border-radius: 15px;
+    margin-top: 30px;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+
+
+ .color{
+    color: #e6683b;
+
+}
+#contact-form {
+    padding-left: 30%;
+    padding-right: 30%;
+   margin-top: 10%;
+   
+
+}
+
+.form-group {
+    margin-bottom: 30px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    color: #ff0000;
+    font-size: 18px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea {
+    width: 100%;
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+}
+
+
+
+
+button[type="submit"] {
+    background: none;
+    border: 1px solid #fff;
+    color: #fff;
+    font-size: 18px;
+    padding: 8px 20px;
+    border-radius: 6px;
+    transition: 0.5s all ease;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background: black;
+    color: rgb(255, 0, 0);
+}
+
+
+
+

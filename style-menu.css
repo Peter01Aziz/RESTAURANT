@@ -1,0 +1,127 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.main{
+    width: 100%;
+}
+
+nav{
+    width: 100%;
+    background-color: black;
+    height: 80px;
+    line-height: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+.logo a{
+    font-size: 40px;
+    color: red;
+    font-weight: bold;
+    margin-left: 100px;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 23px;
+    transition: 0.5s all ease;
+}
+ul{
+    margin: 0px;
+    margin-right: 100px;
+    
+}
+ul li{
+    float: left;
+    padding: 0px 19px;
+    list-style: none;
+}
+ul li a:hover{
+    color: red;
+}
+
+.header{
+    background-image: url(6.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+button{
+    background: none;
+    border: 1px solid #fff;
+    color: #fff;
+    font-size: 18px;
+    padding: 8px 20px;
+    border-radius: 6px;
+    transition: 0.5s all ease;
+    cursor: pointer;
+}
+
+button:hover{
+    background: black;
+    color: rgb(255, 0, 0);
+}
+
+
+
+
+.line-box {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.box {
+    text-align: center;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    padding: 20px;
+    width: calc(33.33% - 20px);
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    
+
+}
+
+.burger {
+    width: 100%;
+    max-width: 150px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.box h2 {
+    font-weight: bold;
+    color: rgb(255, 0, 0);
+    margin: 10px 0;
+}
+
+.box p {
+    color: #fff;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+button {
+    background: none;
+    border: 1px solid #fff;
+    color: #fff;
+    font-size: 18px;
+    padding: 8px 20px;
+    border-radius: 6px;
+    transition: 0.5s all ease;
+    cursor: pointer;
+}
+
+button:hover {
+    background: black;
+    color: rgb(255, 0, 0);}
+.overlay{
+    background: rgba(0, 0, 0, 0.5);
+}

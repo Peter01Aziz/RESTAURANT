@@ -1,0 +1,187 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.main{
+    width: 100%;
+}
+
+nav{
+    width: 100%;
+    background-color: black;
+    height: 80px;
+    line-height: 80px;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+}
+.logo a{
+    font-size: 40px;
+    color: red;
+    font-weight: bold;
+    margin-left: 100px;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 23px;
+    transition: 0.5s all ease;
+}
+ul{
+    margin: 0px;
+    margin-right: 100px;
+    
+}
+ul li{
+    float: left;
+    padding: 0px 19px;
+    list-style: none;
+}
+ul li a:hover{
+    color: red;
+}
+
+.header{
+    background-image: url(1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-attachment: fixed;
+}
+
+.content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #fff;
+    text-align: center;
+}
+
+.content h1{
+    font-size: 50px;
+}
+
+.content p{
+    padding: 0px 100px;
+    font-size: 30px;
+}
+
+button{
+    background: none;
+    border: 1px solid #fff;
+    color: #fff;
+    font-size: 18px;
+    padding: 8px 20px;
+    border-radius: 6px;
+    transition: 0.5s all ease;
+}
+
+button:hover{
+    background: black;
+    color: rgb(255, 0, 0);
+}
+.overlay{
+    background: rgba(0,0,0,0.6);
+}
+.Container{
+    margin: auto;
+}
+.about{
+    padding: 10% 0;
+    margin-bottom: 20%;
+}
+.about-info{
+    float: left;
+    width: 45%;
+    padding-left: 10px;
+    margin-left: 60px;
+}
+.about-img{
+    width:45%;
+    float: right;
+
+}
+.about-img img{
+    width: 70%;
+}
+p span{
+    font-weight: bold;
+    font-size: 30px;
+}
+.about-info p{
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-family: cursive;
+}
+.about-info ul li{
+    font-size: 20px;
+    padding: 10px 0;
+}
+.about-info ul {
+    padding: 0 20px;
+}
+.clr{
+    clear:both; /* بنستخدمها عشان ال نوقف ال float*/
+}
+.footer {
+    background: #000;
+    padding: 30px 0;
+    font-family: 'Play', sans-serif;
+    text-align: center;
+    width: 100%;
+}
+
+.footer .row {
+    display: flex;
+    justify-content: center; /* Horizontally center content */
+    align-items: center; /* Vertically center content */
+    margin: 1% 0;
+    padding: 0.6% 0;
+    color: gray;
+    font-size: 0.8em;
+}
+
+.footer .row a {
+    text-decoration: none;
+    color: gray;
+    transition: 0.5s;
+}
+
+.footer .row a:hover {
+    color: #fff;
+}
+
+.footer .row ul {
+    list-style: none; /* Remove default list styling */
+    padding: 0; /* Remove default padding */
+}
+
+.footer .row ul li {
+    display: inline-block;
+    margin: 0 30px;
+    text-align: center;
+}
+
+.footer .row a i {
+    font-size: 2em;
+    margin: 0 1%;
+    padding: 10px;
+}
+
+@media (max-width: 720px) {
+    .footer {
+        padding: 5%;
+    }
+    .footer .row ul li {
+        display: block;
+        margin: 10px 0;
+        text-align: center;
+    }
+    .footer .row a i {
+        margin: 0 3%;
+    }
+}
